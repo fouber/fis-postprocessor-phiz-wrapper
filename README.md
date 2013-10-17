@@ -13,7 +13,7 @@ a postprocessor plugin for fis to wrapper phiz view file.
 fis.config.set('roadmap.path', [
     {
         reg : '**.class.php',
-        isMod : true
+        isClass : true
     },
     {
         reg : '**.php',
