@@ -9,7 +9,7 @@ module.exports = function(content, file, conf){
     var className;
     var superClass = conf.superClass || 'PhizView';
     if(file.isMod){
-        className = 'fis_view_' + file.getId().replace(/\W/g, '_');
+        className = 'phiz_view_' + file.getId().replace(/\W/g, '_');
         content = [
             '<?php',
             'class ' + className + ' extends ' + superClass + ' {',
