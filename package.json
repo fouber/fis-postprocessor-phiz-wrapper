@@ -1,0 +1,24 @@
+{
+  "name": "fis-postprocessor-phiz-wrapper",
+  "version": "0.0.1",
+  "description": "a postprocessor plugin for fis to wrapper phiz view file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fouber/fis-postprocessor-phiz-wrapper.git"
+  },
+  "keywords": [
+    "fis",
+    "postpackager",
+    "seajs",
+    "spm"
+  ],
+  "author": "fouber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fouber/fis-postprocessor-phiz-wrapper/issues"
+  }
+}
