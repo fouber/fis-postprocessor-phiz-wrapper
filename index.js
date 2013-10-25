@@ -13,13 +13,13 @@ module.exports = function(content, file, conf){
         content = [
             '<?php',
             'class ' + className + ' extends ' + superClass + ' {',
-            '    protected function loadTemplate() {',
-            '        ob_start();',
-            '        ?>' + content + '<?php',
-            '        return ob_get_clean();',
-            '    }',
+            'protected function loadTemplate() {',
+            'ob_start();',
+            '?>' + content + '<?php',
+            'return ob_get_clean();',
+            '}',
             '}'
-        ].join('\n');
+        ].join(' ');
         file.extras.clazz = className;
     } else if(file.isClass){
         var reg = /"(?:[^\\"\r\n\f]|\\[\s\S])*"|'(?:[^\\'\n\r\f]|\\[\s\S])*'|(?:\/\/|#)[^\r\n\f]+|\/\*[\s\S]*?(?:\*\/|$)|\sclass\s+([a-zA-Z_][a-zA-Z_0-9]*)[\s{]/g;
