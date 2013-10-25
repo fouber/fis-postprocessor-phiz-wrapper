@@ -8,7 +8,7 @@
 module.exports = function(content, file, conf){
     var className;
     if(file.isMod){
-        var superClass = conf.superClass || 'PhizView';
+        var superClass = file.superClass || conf.superClass || 'PhizView';
         className = 'phiz_view_' + file.getId().replace(/\W/g, '_');
         content = [
             '<?php',
