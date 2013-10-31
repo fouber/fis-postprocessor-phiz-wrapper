@@ -1,6 +1,6 @@
 {
   "name": "fis-postprocessor-phiz-wrapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "a postprocessor plugin for fis to wrapper phiz view file",
   "main": "index.js",
   "scripts": {
